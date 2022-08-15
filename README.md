@@ -1,5 +1,8 @@
 # CreditCardFormValidation
-run these in terminal (add sudo if you're getting permission errors):
+Requirements:
+- docker
+- docker compose
+Run these in terminal (add sudo if you're getting permission errors):
 - docker compose up -d --build
 - docker compose run php8-service composer install
 - docker compose run node-service npm i
